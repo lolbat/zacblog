@@ -2,4 +2,4 @@ baseURL = 'https://lolbat.github.io/zacblog/'
 languageCode = 'en-us'
 title = 'An old coder'
 theme ="ananke"
-publishDir="public"
+publishDir="docs"
