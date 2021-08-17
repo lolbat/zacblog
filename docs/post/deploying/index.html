@@ -42,7 +42,7 @@ Hugo defaults to building all of your static content into the /public directory 
 My first problem is that the repository is private. I need to make it public so that Github Pages will allow me to host it using the free plan that I am using.
 Hugo defaults to building all of your static content into the /public directory and Github pages, which assumes that you are using Jekyll wants to find everything in the /doc directory."><meta itemprop="datePublished" content="2021-08-17T15:29:15-06:00" />
 <meta itemprop="dateModified" content="2021-08-17T15:29:15-06:00" />
-<meta itemprop="wordCount" content="238">
+<meta itemprop="wordCount" content="237">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Deploying"/>
 <meta name="twitter:description" content="So it works locally. Now how do we get it to Github?
@@ -148,7 +148,7 @@ Hugo defaults to building all of your static content into the /public directory 
 <p>Hugo defaults to building all of your static content into the <code>/public</code> directory and Github pages, which assumes that you are using <a href="https://jekyllrb.com" title="Another static site generator">Jekyll</a> wants to find everything in the <code>/doc</code> directory. Not a problem but my first build was into the <code>/public</code> directory so I need to use the <code>publishDir</code> configuration directive and change the location.</p>
 <p>I assume that it is a caching issue but this causes me no end of problems as the files get posted to Github and the site created but the server isn&rsquo;t looking in the <code>/docs</code> directory even when I build into it.</p>
 <p>I do manage to get that resolved but it involves me fussing with a Pages setting in Github and pushing new content far too many times. My hope is that this is all now resolved and I can use the blog without any issues.</p>
-<p>I am using the directory that Github wants to use to make my life easier and the folks at Hugo think that the best solution is to [deploy using a Github Action] <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" title="Holy heck!">deploy</a> which seems overkill for a blog with some static html pages. Maybe one day I will get there</p>
+<p>I am using the directory that Github wants to use to make my life easier and the folks at Hugo think that the best solution is to <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" title="Holy heck!">deploy using a Github Action</a> which seems overkill for a blog with some static html pages. Maybe one day I will get there</p>
 <ul class="pa0">
   
 </ul>
