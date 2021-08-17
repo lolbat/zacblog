@@ -6,7 +6,16 @@
     <description>Recent content on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Aug 2021 11:26:09 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 13:12:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Going</title>
+      <link>https://lolbat.github.io/zacblog/post/getting-going/</link>
+      <pubDate>Tue, 17 Aug 2021 13:12:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/getting-going/</guid>
+      <description>You have to assume that any blog that involves using a command line tool and pushing content to a code control system will have a few hickups involved with getting it going. Such is the case with this blog. The Hugo docs seem to be based on the assumption taht you are going to get Github to render the static html pages. So their explanation of the process involves creating a Github Workflow Action.</description>
+    </item>
+    
     <item>
       <title>First Post</title>
       <link>https://lolbat.github.io/zacblog/post/first-post/</link>
