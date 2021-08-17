@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on An old coder</title>
-    <link>http://example.org/post/</link>
+    <link>https://lolbat.github.io/zacblog/post/</link>
     <description>Recent content in Posts on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Aug 2021 11:26:09 -0600</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 11:26:09 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>http://example.org/post/first-post/</link>
+      <link>https://lolbat.github.io/zacblog/post/first-post/</link>
       <pubDate>Tue, 17 Aug 2021 11:26:09 -0600</pubDate>
       
-      <guid>http://example.org/post/first-post/</guid>
+      <guid>https://lolbat.github.io/zacblog/post/first-post/</guid>
       <description>A new blog A new start as a developer requires, I think, a new blog. And since my focus is going to be Javascript web application development then it seems as if my new blog should not only document that path but also help me along on that path. To that end, I am using the Hugo site generator and Github Pages to create this blog and host it.
 There are so many new tools and practices that I am learning that it is all a buzz but it is also quite exciting.</description>
     </item>
