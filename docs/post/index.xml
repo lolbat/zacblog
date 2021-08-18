@@ -6,7 +6,17 @@
     <description>Recent content in Posts on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Aug 2021 15:29:15 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Aug 2021 19:40:22 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What have we learned so far? </title>
+      <link>https://lolbat.github.io/zacblog/post/what-have-we-learned/</link>
+      <pubDate>Tue, 17 Aug 2021 19:40:22 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/what-have-we-learned/</guid>
+      <description>So this morning I didn&amp;rsquo;t have a blog and now I have this creaking monstrosity that is hosted on a global source code repository and created using a series of command line tools that I didn&amp;rsquo;t have installed this morning either. Its been a bit of a crazy day but I have accomplished a fair bit. So what do I know now that I didn&amp;rsquo;t know this morning?
+#1 git</description>
+    </item>
+    
     <item>
       <title>Deploying</title>
       <link>https://lolbat.github.io/zacblog/post/deploying/</link>
