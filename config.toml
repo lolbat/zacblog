@@ -1,5 +1,16 @@
 baseURL = 'https://lolbat.github.io/zacblog/'
 languageCode = 'en-us'
 title = 'An old coder'
-theme ="ananke"
+theme ="hyde"
 publishDir="docs"
+
+[params]
+  themeColor = "theme-base-0d"
+  description = "One person's journey back into the world of web development."
+
+  [Menus]
+    main = [
+        {Name = "Github", URL = "https://github.com/lolbat/"},
+        {Name="About", URL = "/page/about/"}
+    ]
+  

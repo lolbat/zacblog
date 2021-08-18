@@ -33,7 +33,8 @@ I did but I am a bit odd and I am also trying to force myself to not use any sho
 
 This is again a very simple step. It is odd having to use the command line to create a blog post but once you do that you can open the Markdown file into any editor and edit it. The oddity is using Markdown in the first place. This just wasn't a thing when I was was first building websites and applications. It is interesting just how widespread the format has become and I suspect that it being used in git has helped to popularise it. 
 
-Hugo renders the pages quickly and pops open a server to display my new, very local, blog. Then it gets a bit weird...
+Hugo renders the pages quickly and pops open a server to display my new, very local, blog. Then it [gets a bit weird...][weird]
 
 [brew]: https://brew.sh "Homebrew actually"
 [HQI]: https://gohugo.io/getting-started/quick-start/ "Hugo Quick Start"
+[weird]: {{< ref "deploying.md" >}} "Deploying the blog"
