@@ -2,6 +2,9 @@
 title: "Deploying"
 date: 2021-08-17T15:29:15-06:00
 draft: false
+tags:
+    - git
+    - hugo
 ---
 
 So it works locally. Now how do we get it to Github?

@@ -2,6 +2,10 @@
 title: "Getting Going"
 date: 2021-08-17T13:12:51-06:00
 draft: false
+tags:
+    - brew
+    - git
+    - hugo
 ---
 
 You have to assume that any blog that involves using a command line tool and pushing content to a code control system will have a few hickups involved with getting it going. Such is the case with this blog. The Hugo docs seem to be based on the assumption taht you are going to get Github to render the static html pages. So their explanation of the process involves creating a Github Workflow Action. That seems to be a bit too far into the deep end for me at the moment.

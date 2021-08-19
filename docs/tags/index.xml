@@ -5,6 +5,61 @@
     <link>https://lolbat.github.io/zacblog/tags/</link>
     <description>Recent content in Tags on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Aug 2021 15:41:15 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://lolbat.github.io/zacblog/tags/hugo/</link>
+      <pubDate>Thu, 19 Aug 2021 15:41:15 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nota</title>
+      <link>https://lolbat.github.io/zacblog/tags/nota/</link>
+      <pubDate>Thu, 19 Aug 2021 15:41:15 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/nota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>https://lolbat.github.io/zacblog/tags/wordpress/</link>
+      <pubDate>Thu, 19 Aug 2021 15:41:15 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://lolbat.github.io/zacblog/tags/git/</link>
+      <pubDate>Tue, 17 Aug 2021 19:40:22 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://lolbat.github.io/zacblog/tags/markdown/</link>
+      <pubDate>Tue, 17 Aug 2021 19:40:22 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brew</title>
+      <link>https://lolbat.github.io/zacblog/tags/brew/</link>
+      <pubDate>Tue, 17 Aug 2021 13:12:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/brew/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

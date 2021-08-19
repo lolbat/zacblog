@@ -2,6 +2,9 @@
 title: "First Post"
 date: 2021-08-17T11:26:09-06:00
 draft: false
+tags:
+    - git
+    - hugo
 ---
 
 ### A new blog

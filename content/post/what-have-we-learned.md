@@ -2,6 +2,10 @@
 title: "What have we learned so far? "
 date: 2021-08-17T19:40:22-06:00
 draft: false
+tags:
+    - git
+    - hugo
+    - markdown
 ---
 
 So this morning I didn't have a blog and now I have this creaking monstrosity that is hosted on a global source code repository and created using a series of command line tools that I didn't have installed this morning either. Its been a bit of a crazy day but I have accomplished a fair bit. So what do I know now that I didn't know this morning?
@@ -18,7 +22,7 @@ Oddly I didn't want to use Jekyll because I didn't want to have to learn Ruby an
 
 **\#3 Markdown**
 
-I have written more Markdown pages in the last day than I have in the last decade. It is interesting to see just how far Markdown has come since its inception. And just how popular it is. It used to be the format of choice for particular bloggers and writers but it has exploded to become the defacto markup language of the internet. It is a testament to John Gruber's original work that it has survived for close to seventeen years with almost no modification. I suspect that no-one uses his original code but having a format not be supplanted in that amount of time is an impressive feat.
+I have written more Markdown pages in the last day than I have in the last decade. It is interesting to see just how far Markdown has come since its inception. And just how popular it is. It used to be the format of choice for particular bloggers and writers but it has exploded to become the defacto markup language of the internet. It is a testament to John Gruber and Aaron Scwartz's original work that it has survived for close to seventeen years with little modification. I suspect that no-one uses his original code but having a format not be supplanted in that amount of time is an impressive feat.
 
 **Now what?**
 
