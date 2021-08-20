@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on An old coder</title>
+    <link>https://lolbat.github.io/zacblog/tags/javascript/</link>
+    <description>Recent content in javascript on An old coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Aug 2021 10:59:46 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Page</title>
+      <link>https://lolbat.github.io/zacblog/post/building-a-page/</link>
+      <pubDate>Fri, 20 Aug 2021 10:59:46 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/building-a-page/</guid>
+      <description>I don&amp;rsquo;t know about how it works now but when ColdFusion was stilled owned by Allaire I really enjoyed using the language and the coding tools. Macromedia purchased Allaire in 2001 and it was all downhill for the language at that point. I was sadly done using CFML before Adobe came into the picture but I can&amp;rsquo;t imagine that they made anything better.
+There were any number of things that I liked about working in ColdFusion but the one thing that really made an impact was your ability to compartmentalise code into external files and either include them directly or make calls to them.</description>
+    </item>
+    
+  </channel>
+</rss>
