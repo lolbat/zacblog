@@ -6,7 +6,16 @@
     <description>Recent content in Posts on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Aug 2021 10:59:46 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Aug 2021 10:12:57 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using JSON</title>
+      <link>https://lolbat.github.io/zacblog/post/using-json/</link>
+      <pubDate>Mon, 23 Aug 2021 10:12:57 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/using-json/</guid>
+      <description>The problem of serializing data and then importing it back into your application is very, very old. I remember Andy White and a few others discussing approaches to this in Director twenty years ago. Andy came up with some code that could do it in Lingo and then XML became a thing1 and we all started using XML for serializing data. Andy, being Andy, came out with a better, and faster, XML parser than Macromedia did.</description>
+    </item>
+    
     <item>
       <title>Building a Page</title>
       <link>https://lolbat.github.io/zacblog/post/building-a-page/</link>
