@@ -6,13 +6,40 @@
     <description>Recent content in Tags on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Aug 2021 10:12:57 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 15:46:55 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>javascript</title>
+      <link>https://lolbat.github.io/zacblog/tags/javascript/</link>
+      <pubDate>Wed, 25 Aug 2021 15:46:55 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JSON</title>
       <link>https://lolbat.github.io/zacblog/tags/json/</link>
-      <pubDate>Mon, 23 Aug 2021 10:12:57 -0600</pubDate>
+      <pubDate>Wed, 25 Aug 2021 15:46:55 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miller</title>
+      <link>https://lolbat.github.io/zacblog/tags/miller/</link>
+      <pubDate>Wed, 25 Aug 2021 15:46:55 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/miller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>https://lolbat.github.io/zacblog/tags/node/</link>
+      <pubDate>Wed, 25 Aug 2021 15:46:55 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/node/</guid>
       <description></description>
     </item>
     
@@ -49,15 +76,6 @@
       <pubDate>Fri, 20 Aug 2021 10:59:46 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/coldfusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://lolbat.github.io/zacblog/tags/javascript/</link>
-      <pubDate>Fri, 20 Aug 2021 10:59:46 -0600</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/tags/javascript/</guid>
       <description></description>
     </item>
     

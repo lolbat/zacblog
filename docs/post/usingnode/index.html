@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Using Node to build CLI tools &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://github.com/lolbat/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Using Node to build CLI tools</h1>
+  <time datetime=2021-08-25T15:46:55-0600 class="post-date">Wed, Aug 25, 2021</time>
+  <p>So I have been working with various command line tools and apps to try to build a workflow to let me take csv data that I export from a spreadsheet and turn it into JSON. This actually isn&rsquo;t too difficult and there are a lot of tools, like <a href="https://github.com/johnkerl/miller">Miller</a>, that will let you take csv and monkey with it. It has a <strong>lot</strong> of options but many of them seem to be tools to work with CSV, or similar, data and not a lot of them seem to be options for JSON.</p>
+<p>One thing that I need to do is to take the JSON that results from my csv export and then &lsquo;massage&rsquo; it a bit to create a more logical structure for the data. I was hoping that I could do this in Miller but even i fit had the options I need I have to work with quite a few key names and I don&rsquo;t want to have to do that in the command line. Frankly I am not that good a typist and I have a slight reading disability. The command line is not my friend.</p>
+<p>Quite a while ago I wrote some Javascript code to do some data modelling. It was simple code and I just needed it to run and spit out the results. I have <a href="https://nodejs.dev">node</a> installed and so I ran the files in the Terminal using node.</p>
+<p>I don&rsquo;t really have a lot of experience with node and so when I ran into a wall looking for existing tools for my workflow I decided to look into writing some Javascript code to do the work for me. Node has a quick method for creating command line tools but since I only really need this code for this specific project I decided to skip them and use node as a means of running my Vanilla JS code.</p>
+<p>I was decidedly easy to incorporate the node file system code and within a few minutes I had a tool that would run from the command line, take a file name and then reformat the JSON code into a new format for me.</p>
+<p>The scariest thing is that this code ran correctly the first time. I can&rsquo;t recall the last time that happened.</p>
+<p>So now I can use miller to create the JSON files and then pipe the results to my Javascript code to finish the processing.</p>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/node/">node</a> <a href="https://lolbat.github.io/zacblog/tags/json/">JSON</a> <a href="https://lolbat.github.io/zacblog/tags/miller/">miller</a> <a href="https://lolbat.github.io/zacblog/tags/javascript/">javascript</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
