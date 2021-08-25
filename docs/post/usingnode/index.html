@@ -58,9 +58,10 @@
 <p>I don&rsquo;t really have a lot of experience with node and so when I ran into a wall looking for existing tools for my workflow I decided to look into writing some Javascript code to do the work for me. Node has a quick method for creating command line tools but since I only really need this code for this specific project I decided to skip them and use node as a means of running my Vanilla JS code.</p>
 <p>I was decidedly easy to incorporate the node file system code and within a few minutes I had a tool that would run from the command line, take a file name and then reformat the JSON code into a new format for me.</p>
 <p>The scariest thing is that this code ran correctly the first time. I can&rsquo;t recall the last time that happened.</p>
-<p>So now I can use miller to create the JSON files and then pipe the results to my Javascript code to finish the processing.</p>
+<p>Oddly, Miller works with what they call tabular JSON which does not validate. And if it doesn&rsquo;t validate then it isn&rsquo;t really going to be a heck of a lot of use. Happily I found a node library called <a href="https://github.com/Keyang/node-csvtojson">csvtojson</a> which does create valid JSON and will also work as a command line tool itself so I didn&rsquo;t have to write any code to use it.</p>
+<p>So now I can use csvtojson to create the JSON files and then pipe the results to my Javascript code to finish the processing.</p>
 
-  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/node/">node</a> <a href="https://lolbat.github.io/zacblog/tags/json/">JSON</a> <a href="https://lolbat.github.io/zacblog/tags/miller/">miller</a> <a href="https://lolbat.github.io/zacblog/tags/javascript/">javascript</a> </div>
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/node/">node</a> <a href="https://lolbat.github.io/zacblog/tags/json/">JSON</a> <a href="https://lolbat.github.io/zacblog/tags/miller/">miller</a> <a href="https://lolbat.github.io/zacblog/tags/csvtojson/">csvtojson</a> <a href="https://lolbat.github.io/zacblog/tags/javascript/">javascript</a> </div>
 </div>
 
 

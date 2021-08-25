@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csvtojson on An old coder</title>
+    <link>https://lolbat.github.io/zacblog/tags/csvtojson/</link>
+    <description>Recent content in csvtojson on An old coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Aug 2021 15:46:55 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/csvtojson/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Node to build CLI tools</title>
+      <link>https://lolbat.github.io/zacblog/post/usingnode/</link>
+      <pubDate>Wed, 25 Aug 2021 15:46:55 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/usingnode/</guid>
+      <description>So I have been working with various command line tools and apps to try to build a workflow to let me take csv data that I export from a spreadsheet and turn it into JSON. This actually isn&amp;rsquo;t too difficult and there are a lot of tools, like Miller, that will let you take csv and monkey with it. It has a lot of options but many of them seem to be tools to work with CSV, or similar, data and not a lot of them seem to be options for JSON.</description>
+    </item>
+    
+  </channel>
+</rss>

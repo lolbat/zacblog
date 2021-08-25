@@ -6,6 +6,7 @@ tags:
     - node
     - json
     - miller
+    - csvtojson
     - javascript
 ---
 So I have been working with various command line tools and apps to try to build a workflow to let me take csv data that I export from a spreadsheet and turn it into JSON. This actually isn't too difficult and there are a lot of tools, like [Miller][millerlink], that will let you take csv and monkey with it. It has a **lot** of options but many of them seem to be tools to work with CSV, or similar, data and not a lot of them seem to be options for JSON. 
@@ -20,7 +21,10 @@ I was decidedly easy to incorporate the node file system code and within a few m
 
 The scariest thing is that this code ran correctly the first time. I can't recall the last time that happened. 
 
-So now I can use miller to create the JSON files and then pipe the results to my Javascript code to finish the processing. 
+Oddly, Miller works with what they call tabular JSON which does not validate. And if it doesn't validate then it isn't really going to be a heck of a lot of use. Happily I found a node library called [csvtojson][csvlink] which does create valid JSON and will also work as a command line tool itself so I didn't have to write any code to use it.
+
+So now I can use csvtojson to create the JSON files and then pipe the results to my Javascript code to finish the processing. 
 
 [millerlink]:https://github.com/johnkerl/miller
 [nodelink]: https://nodejs.dev
+[csvlink]: https://github.com/Keyang/node-csvtojson
