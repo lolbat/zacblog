@@ -1,5 +1,5 @@
 ---
-title: "The Peril of Social Media"
+title: "The decline of technical writing"
 date: 2021-08-26T09:49:45-06:00
 draft: false
 tags:
