@@ -3,30 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lolbat.github.io/zacblog/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/bash/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/csv/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/csvtojson/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/json/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/node/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/shell-scripting/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/table-tool/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/</loc>
+    <lastmod>2021-08-27T11:49:01-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/miller/</loc>
     <lastmod>2021-08-27T09:12:43-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/post/more-csv-work/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/node/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/post/</loc>
-    <lastmod>2021-08-27T09:12:43-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/</loc>
     <lastmod>2021-08-27T09:12:43-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/director/</loc>

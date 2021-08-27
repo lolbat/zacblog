@@ -6,7 +6,16 @@
     <description>Recent content in json on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Aug 2021 09:12:43 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Aug 2021 11:49:01 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell Scripting</title>
+      <link>https://lolbat.github.io/zacblog/post/shell-scripting/</link>
+      <pubDate>Fri, 27 Aug 2021 11:49:01 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/shell-scripting/</guid>
+      <description>So I didn&amp;rsquo;t wait to get other work done and went ahead and built the shell script to automate converting all of my csv files. I did a few stackoverflow searches to find some information about getting filenames into a shell script and then iterating over them. I also had to look up how to determine the filename without the extension as I had to create a new .json filename for the output file.</description>
+    </item>
+    
     <item>
       <title>More Csv Work</title>
       <link>https://lolbat.github.io/zacblog/post/more-csv-work/</link>
