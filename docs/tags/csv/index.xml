@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csv on An old coder</title>
+    <link>https://lolbat.github.io/zacblog/tags/csv/</link>
+    <description>Recent content in csv on An old coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Aug 2021 09:12:43 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More Csv Work</title>
+      <link>https://lolbat.github.io/zacblog/post/more-csv-work/</link>
+      <pubDate>Fri, 27 Aug 2021 09:12:43 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/more-csv-work/</guid>
+      <description>I finally managed to finish my csv to JSON workflow. I originally tried usingMiller to export my csv to JSON but it didn&amp;rsquo;t provide all of the options that I needed. I managed to find a node library called csvtojson that had all of the tools I needed. It also lets you edit the header names to create nested JSON data in a way that I needed as well. I will be keeping Miller handy though as I will have more csv work to do in the future.</description>
+    </item>
+    
+  </channel>
+</rss>

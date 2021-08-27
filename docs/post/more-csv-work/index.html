@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>More Csv Work &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://github.com/lolbat/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>More Csv Work</h1>
+  <time datetime=2021-08-27T09:12:43-0600 class="post-date">Fri, Aug 27, 2021</time>
+  <p>I finally managed to finish my csv to JSON workflow. I originally tried using<a href="https://github.com/johnkerl/miller">Miller</a> to export my csv to JSON but it didn&rsquo;t provide all of the options that I needed. I managed to find a node library called <a href="https://github.com/Keyang/node-csvtojson">csvtojson</a> that had all of the tools I needed. It also lets you edit the header names to create <a href="https://github.com/Keyang/node-csvtojson#nested-json-structure">nested JSON data</a> in a way that I needed as well. I will be keeping Miller handy though as I will have more csv work to do in the future.</p>
+<p>The library can be used in node but it can also be run as a command line tool and that is how I am currently using it. Despite being able to do nested data I wrote my own node code to do that processing for me. Most of the files I want to process have quite a few fields that need to be nested and I don&rsquo;t want to modify the spreadsheet headers since those will ultimately be public facing and the nesting format is easy to understand but would be a PITA in a spreadsheet.</p>
+<p>The node tool I wrote turned out to be surprisingly easy to build. Node is not a difficult as I thought. I have two sets of key/value pairs that I want to put into a nested array and then delete the original keys. As well, I have a replacer function that write out the boolean and integer values in the file without the double quotes. I am doing this to make it simpler to use the data in my web application.</p>
+<p>So now all I do is export the data from my spreadsheet and then call the csvtojson library and pipe the results to my node tool which then exports the final file. Once the first version of the web app is ready for public testing I will go back and create a bash shell script to process all the csv files and then copy them to the deployment directory.</p>
+<p>I have two other JSON files that I create but since they are singletons I am using the nested feature in csvtojson to create those and then running another process to strip the quotes from the booleans and integer.</p>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/csv/">csv</a> <a href="https://lolbat.github.io/zacblog/tags/json/">json</a> <a href="https://lolbat.github.io/zacblog/tags/node/">node</a> <a href="https://lolbat.github.io/zacblog/tags/miller/">miller</a> <a href="https://lolbat.github.io/zacblog/tags/csvtojson/">CSVTOJSON</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
