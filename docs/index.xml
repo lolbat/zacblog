@@ -6,7 +6,17 @@
     <description>Recent content on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Aug 2021 11:49:01 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Sep 2021 11:45:16 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Speed of Javascript</title>
+      <link>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</link>
+      <pubDate>Wed, 01 Sep 2021 11:45:16 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</guid>
+      <description>I still have difficulty comprehending the speed at which Javascript runs in the browser. Part of the speed is due to the processors that our computers are running. A more significant amount of the improvement though is the capabilities of the Javascript engines that are being used in browsers as well as the advent of JIT in those engines.
+It has dramatically changed not only what you can do in a web-based application but how you do it.</description>
+    </item>
+    
     <item>
       <title>Shell Scripting</title>
       <link>https://lolbat.github.io/zacblog/post/shell-scripting/</link>
