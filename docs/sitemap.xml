@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lolbat.github.io/zacblog/</loc>
-    <lastmod>2021-09-01T11:45:16-06:00</lastmod>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/director/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/javascript/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/javascript-oop-is-odd/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/lingo/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/oop/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/</loc>
+    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/javscript/</loc>
     <lastmod>2021-09-01T11:45:16-06:00</lastmod>
@@ -12,12 +33,6 @@
     <lastmod>2021-09-01T11:45:16-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/jsrender/</loc>
-    <lastmod>2021-09-01T11:45:16-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/post/</loc>
-    <lastmod>2021-09-01T11:45:16-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/</loc>
     <lastmod>2021-09-01T11:45:16-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</loc>
@@ -50,12 +65,6 @@
     <loc>https://lolbat.github.io/zacblog/post/more-csv-work/</loc>
     <lastmod>2021-08-27T09:12:43-06:00</lastmod>
   </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/director/</loc>
-    <lastmod>2021-08-26T11:21:35-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/lingo/</loc>
-    <lastmod>2021-08-26T11:21:35-06:00</lastmod>
-  </url><url>
     <loc>https://lolbat.github.io/zacblog/post/wistful-thinking/</loc>
     <lastmod>2021-08-26T11:21:35-06:00</lastmod>
   </url><url>
@@ -76,9 +85,6 @@
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/twitter/</loc>
     <lastmod>2021-08-26T09:49:45-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/javascript/</loc>
-    <lastmod>2021-08-25T15:46:55-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/post/usingnode/</loc>
     <lastmod>2021-08-25T15:46:55-06:00</lastmod>
