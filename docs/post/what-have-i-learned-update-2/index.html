@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>What Have I Learned - Update 2 &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://github.com/lolbat/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>What Have I Learned - Update 2</h1>
+  <time datetime=2021-09-03T09:49:51-0600 class="post-date">Fri, Sep 3, 2021</time>
+  <p>Well it has been a busy week. Lets have a look back at all of the new things I have &lsquo;learned&rsquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> in order to get my web application up and running.</p>
+<h4 id="jsrender-and-jsview">JSRender and JSView</h4>
+<p>So the biggest thing for me was learning to integrate <a href="https://www.jsviews.com">JSRender and JSView</a> into my web application. I can&rsquo;t get over how well they work and also how easy they were to use. I am not really stressing either library but I took the HTML creation for a fairly complex display and turned it into a template and took the code needed to create it into one line.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">template</span>.<span style="color:#a6e22e">link</span>(<span style="color:#a6e22e">unitRenderElement</span>, <span style="color:#a6e22e">unitData</span>);
+</code></pre></div><p>The library is very fast. On my TODO list is a task to simplify one of the renderings I am doing since I have made it less effective than it could be. This is because I am iterating over an array instead of just sending the entire array to the template.</p>
+<p>The real magic was getting JSView to work. I needed to do some reworking of my code (a slight tweak really) to allow me to render the content using the <code>.link</code> method instead of the <code>.render</code> method. The template was tweaked to change the coding for the elements that the render engine was creating and I then just needed to make changes observable to have the new values displayed in the views.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">$</span>.<span style="color:#a6e22e">observable</span>(<span style="color:#a6e22e">thisUnit</span>).<span style="color:#a6e22e">setProperty</span>(<span style="color:#e6db74">&#34;productCost&#34;</span>, <span style="color:#a6e22e">newCost</span>);
+</code></pre></div><p>I have to go back into the template and &lsquo;hook up&rsquo; all of the items that will need to be observable but the hard work has been done. And by &lsquo;hard work&rsquo; I mean linking up some libraries. Someone else did the real difficult work.</p>
+<p>Both of these libraries have dramatically changed the application. The code I am writing is a lot less complex as well as lower in quantity. I was able to delete about 100 lines of code that I had written previously to track data changes and display them. It was not pretty code and it is good that it was replaced.</p>
+<h4 id="javascript-classes">Javascript Classes</h4>
+<p>As I alluded to in a previous post, I have been working on taking functionality in the application and encapsulating it into a series of classes. I have a model and view class to store and display the data I am working with. I have another class to manage access to all of the data available and two more to deal with access to specialised data that is restricted based on some in-application definitions.</p>
+<p>When I first learned to code using objects I was put into a situation where I was required to encapsulate a lot of functionality and data due to the restrictions of the development environment that I was using. It was a necessary requirement but I also think that it made my code better. So I am quite happy that I have been able to bring this coding style to Javascript development with classes.</p>
+<h4 id="node">Node</h4>
+<p>I don&rsquo;t think that I have really scratched the surface of Node but I have a better understanding of what it can do for me as a developer and also how to use some basic features of it. I wrote some tools to parse the JSON data that I am using into specialised formats based on the type of data in the file. One of the helpful <a href="https://github.com/johnkerl/miller">Miller</a> developers provided me with some command line options to do the things I needed to do to the data right in the command line but the string was as long as my arm (as these things sometimes are) and it really isn&rsquo;t a feasible option for me given my issues with reading. So I built some Javscript code that uses Node to read files in, process them and then read them out again. Huzzah.</p>
+<p>I am looking forward to learning some more about Node and how to use it to build more of my own tools.</p>
+<h4 id="shell-scripting">Shell scripting</h4>
+<p>Given the number of grey hairs I have you would assume that I was already experienced in shell scripting but aside from writing some <code>.bat</code> files to load Quake maps a long, long time ago I have really not had a need to use shell scripts. Since I have a large number of csv files that need to be converted into JSON files I wrote a shell script to do that very thing. I reads in the directory of .csv files and then create a new filepath for the results and sends the csv filenames and new filepaths to a node library to do the conversion. Huzzah again.</p>
+<h4 id="up-next">Up next</h4>
+<p>So I have a fair bit of code to write to fill out the features for the initial release of my web application. Once that is ready to go I need to figure out a tool to build the web application with just the files I need so <a href="https://webpack.js.org">webpack</a> or something like that.  I am also going to look into learning some more git command line options since it is a bit of a PITA to load Github Desktop every time I jsut need to push files to Github.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Obviously I have scratched the surface of a lot of things but I have learned some of the APIs and information available.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/jsrender/">JSRender</a> <a href="https://lolbat.github.io/zacblog/tags/jsview/">jsview</a> <a href="https://lolbat.github.io/zacblog/tags/oop/">oop</a> <a href="https://lolbat.github.io/zacblog/tags/node/">node</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>

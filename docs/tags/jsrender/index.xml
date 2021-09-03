@@ -6,7 +6,17 @@
     <description>Recent content in JSRender on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Sep 2021 11:45:16 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/jsrender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Sep 2021 09:49:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/jsrender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Have I Learned - Update 2</title>
+      <link>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</guid>
+      <description>Well it has been a busy week. Lets have a look back at all of the new things I have &amp;lsquo;learned&amp;rsquo;1 in order to get my web application up and running.
+JSRender and JSView So the biggest thing for me was learning to integrate JSRender and JSView into my web application. I can&amp;rsquo;t get over how well they work and also how easy they were to use. I am not really stressing either library but I took the HTML creation for a fairly complex display and turned it into a template and took the code needed to create it into one line.</description>
+    </item>
+    
     <item>
       <title>The Speed of Javascript</title>
       <link>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</link>

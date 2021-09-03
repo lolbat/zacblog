@@ -6,7 +6,43 @@
     <description>Recent content in Tags on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Sep 2021 09:24:11 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Sep 2021 09:49:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSRender</title>
+      <link>https://lolbat.github.io/zacblog/tags/jsrender/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/jsrender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jsview</title>
+      <link>https://lolbat.github.io/zacblog/tags/jsview/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/jsview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>https://lolbat.github.io/zacblog/tags/node/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oop</title>
+      <link>https://lolbat.github.io/zacblog/tags/oop/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/oop/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>director</title>
       <link>https://lolbat.github.io/zacblog/tags/director/</link>
@@ -35,15 +71,6 @@
     </item>
     
     <item>
-      <title>oop</title>
-      <link>https://lolbat.github.io/zacblog/tags/oop/</link>
-      <pubDate>Thu, 02 Sep 2021 09:24:11 -0600</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/tags/oop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>javscript</title>
       <link>https://lolbat.github.io/zacblog/tags/javscript/</link>
       <pubDate>Wed, 01 Sep 2021 11:45:16 -0600</pubDate>
@@ -58,15 +85,6 @@
       <pubDate>Wed, 01 Sep 2021 11:45:16 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JSRender</title>
-      <link>https://lolbat.github.io/zacblog/tags/jsrender/</link>
-      <pubDate>Wed, 01 Sep 2021 11:45:16 -0600</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/tags/jsrender/</guid>
       <description></description>
     </item>
     
@@ -103,15 +121,6 @@
       <pubDate>Fri, 27 Aug 2021 11:49:01 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>node</title>
-      <link>https://lolbat.github.io/zacblog/tags/node/</link>
-      <pubDate>Fri, 27 Aug 2021 11:49:01 -0600</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/tags/node/</guid>
       <description></description>
     </item>
     
