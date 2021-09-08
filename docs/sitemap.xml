@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lolbat.github.io/zacblog/</loc>
-    <lastmod>2021-09-03T09:49:51-06:00</lastmod>
+    <lastmod>2021-09-08T15:16:12-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/javascript/</loc>
+    <lastmod>2021-09-08T15:16:12-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/</loc>
+    <lastmod>2021-09-08T15:16:12-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/post/programmers-are-strange/</loc>
+    <lastmod>2021-09-08T15:16:12-06:00</lastmod>
+  </url><url>
+    <loc>https://lolbat.github.io/zacblog/tags/</loc>
+    <lastmod>2021-09-08T15:16:12-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/jsrender/</loc>
     <lastmod>2021-09-03T09:49:51-06:00</lastmod>
@@ -17,19 +29,10 @@
     <loc>https://lolbat.github.io/zacblog/tags/oop/</loc>
     <lastmod>2021-09-03T09:49:51-06:00</lastmod>
   </url><url>
-    <loc>https://lolbat.github.io/zacblog/post/</loc>
-    <lastmod>2021-09-03T09:49:51-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/</loc>
-    <lastmod>2021-09-03T09:49:51-06:00</lastmod>
-  </url><url>
     <loc>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</loc>
     <lastmod>2021-09-03T09:49:51-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/tags/director/</loc>
-    <lastmod>2021-09-02T09:24:11-06:00</lastmod>
-  </url><url>
-    <loc>https://lolbat.github.io/zacblog/tags/javascript/</loc>
     <lastmod>2021-09-02T09:24:11-06:00</lastmod>
   </url><url>
     <loc>https://lolbat.github.io/zacblog/post/javascript-oop-is-odd/</loc>

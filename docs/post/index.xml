@@ -6,7 +6,18 @@
     <description>Recent content in Posts on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Sep 2021 09:49:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Sep 2021 15:16:12 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programmers Are Strange</title>
+      <link>https://lolbat.github.io/zacblog/post/programmers-are-strange/</link>
+      <pubDate>Wed, 08 Sep 2021 15:16:12 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/programmers-are-strange/</guid>
+      <description>It is sometimes odd to be a coder. Perfectly acceptable code gets changed into &amp;lsquo;leaner&amp;rsquo;, &amp;lsquo;more precise&amp;rsquo; code after hours of tweaking and reading docs.
+I spent a part of the day trying to figure out the best way to streamline some code I had.
+let commanderTest = true; if (item.restrictions[&amp;#34;commander&amp;#34;] ) { commanderTest = characterTypes.commander; } So the code checks to see if the item we are processing has a restriction and if the unit we are attaching the item to has that quality.</description>
+    </item>
+    
     <item>
       <title>What Have I Learned - Update 2</title>
       <link>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</link>
