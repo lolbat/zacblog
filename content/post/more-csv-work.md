@@ -1,5 +1,5 @@
 ---
-title: "More Csv Work"
+title: "More csv work"
 date: 2021-08-27T09:12:43-06:00
 draft: false
 tags:
