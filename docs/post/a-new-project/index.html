@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A New Project &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://github.com/lolbat/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>A New Project</h1>
+  <time datetime=2021-09-15T16:29:40-0600 class="post-date">Wed, Sep 15, 2021</time>
+  <p>So my current project is coming to a close and I am on the lookout for a new one to start working on. My current obsession is a game called <a href="http://www.illwinter.com/coe5/index.html">Conquest of Elysium 5</a> and it has a modding system that is simple enough that even an old coot like myself can partake.</p>
+<p>The code for the mods is created in a single text file and all of the images used are in <code>.tga</code> format and stored at the same directory level. There are also some additional graphics for displaying banners in the Steam store and in the app when you load the mod. Finally there is a single text file to make the mod publicly visible in the Steam Workshop.</p>
+<p>So my next project is going to be a mode editor for the game. I will use <a href="https://www.electronjs.org">electron</a> to do the cross-platform development and implement the <a href="https://codemirror.net/6/">CodeMirror</a> to display the code and also enable a build process so that coders can make it easier to write a mod and then build it for release.</p>
+<h3 id="ta-dah">Ta Dah!</h3>
+<p><img src="/zacblog/comp.jpeg" alt="a comp"></p>
+<p>So this is what I imagine an initial version would look like. It is taken from a screenshot for the <a href="https://github.com/atom/atom">Atom code editor</a> and I have added some code from the <em>War in Heaven</em> mod as well as my idea of what a project directory structure would look like.</p>
+<h4 id="goals">Goals</h4>
+<h5 id="includes">Includes</h5>
+<p>So my basic idea is to create a code editor that will create a standard project directory that a coder could then use to help organize their work. Currently all of the data for a mod is in a single text file and for a large mod that can be hundreds of lines of code. The aforementioned <em>War in Heaven</em> mod has 302 lines of code and I suspect that it is not the largest. This is clearly an accident waiting to happen and so the first thing I want to do is create an include system in the app so that it can let you write out code in smaller parts and then include them in a main file. Then when you build the mod it would create a single file from all of the includes. So instead of 75 lines of new rituals in your mod you could have a <code>main.c5s</code> file that had a single line</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">include</span> <span style="color:#a6e22e">rituals</span>.<span style="color:#a6e22e">c5s</span>
+</code></pre></div><p>This would entail one or two editor specific file extensions to make it easy to distinguish between the editor&rsquo;s files and the file you need to include with the mod.</p>
+<h5 id="directory-structure">Directory structure</h5>
+<p>To keep everything simple the editor would also use a build directory to write out all of the files for the final version of the mod. This way any structure that the editor uses won&rsquo;t cause problems when creating the mod for delivery. So in the comp above you can see that there is are <code>src</code>, <code>build</code> and <code>img</code> directories but when you do a build all of the content would be copied over to the build directory. So your organization doesn&rsquo;t impact on the build and the requirements for the build don&rsquo;t impact any structure you want to put on your code and assets.</p>
+<h5 id="autocompletion">Autocompletion</h5>
+<p>The game&rsquo;s mod system includes commands such as <code>destroyterr</code>, <code>noportalreq</code> and <code>nonearby1req</code>. They are all lowercase and they are all typos waiting to happen. CodeMirror makes it easy to add autocompletion and I also want to see if it is possible to add parameter completion as well so the editor will know that <code>flymode</code> requires a number and that number is from a table of possible values.</p>
+<h4 id="is-that-all">Is that all?</h4>
+<p>Well for the moment it is.
+There are a lot of things that could make this a nonviable project. The game&rsquo;s authors could say no or the mod writers themselves could just shrug and not think it was worth the effort. I am going to be posting a link to this blog post on the Steam Community forum to get some feedback from people but I will probably start building the basic structure of the app in the next few days.</p>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/electron/">electron</a> <a href="https://lolbat.github.io/zacblog/tags/codemirror/">codemirror</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>

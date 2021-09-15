@@ -6,7 +6,17 @@
     <description>Recent content on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Sep 2021 15:16:12 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Sep 2021 16:29:40 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Project</title>
+      <link>https://lolbat.github.io/zacblog/post/a-new-project/</link>
+      <pubDate>Wed, 15 Sep 2021 16:29:40 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/a-new-project/</guid>
+      <description>So my current project is coming to a close and I am on the lookout for a new one to start working on. My current obsession is a game called Conquest of Elysium 5 and it has a modding system that is simple enough that even an old coot like myself can partake.
+The code for the mods is created in a single text file and all of the images used are in .</description>
+    </item>
+    
     <item>
       <title>Programmers Are Strange</title>
       <link>https://lolbat.github.io/zacblog/post/programmers-are-strange/</link>
@@ -57,7 +67,7 @@ It has dramatically changed not only what you can do in a web-based application 
     </item>
     
     <item>
-      <title>More Csv Work</title>
+      <title>More csv work</title>
       <link>https://lolbat.github.io/zacblog/post/more-csv-work/</link>
       <pubDate>Fri, 27 Aug 2021 09:12:43 -0600</pubDate>
       

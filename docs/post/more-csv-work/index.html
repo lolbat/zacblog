@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>More Csv Work &middot; An old coder</title>
+  <title>More csv work &middot; An old coder</title>
   <meta name="description" content="" />
 
   
@@ -50,7 +50,7 @@
 
     <main class="content container">
     <div class="post">
-  <h1>More Csv Work</h1>
+  <h1>More csv work</h1>
   <time datetime=2021-08-27T09:12:43-0600 class="post-date">Fri, Aug 27, 2021</time>
   <p>I finally managed to finish my csv to JSON workflow. I originally tried using<a href="https://github.com/johnkerl/miller">Miller</a> to export my csv to JSON but it didn&rsquo;t provide all of the options that I needed. I managed to find a node library called <a href="https://github.com/Keyang/node-csvtojson">csvtojson</a> that had all of the tools I needed. It also lets you edit the header names to create <a href="https://github.com/Keyang/node-csvtojson#nested-json-structure">nested JSON data</a> in a way that I needed as well. I will be keeping Miller handy though as I will have more csv work to do in the future.</p>
 <p>The library can be used in node but it can also be run as a command line tool and that is how I am currently using it. Despite being able to do nested data I wrote my own node code to do that processing for me. Most of the files I want to process have quite a few fields that need to be nested and I don&rsquo;t want to modify the spreadsheet headers since those will ultimately be public facing and the nesting format is easy to understand but would be a PITA in a spreadsheet.</p>
