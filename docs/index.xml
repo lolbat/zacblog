@@ -6,7 +6,17 @@
     <description>Recent content on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Sep 2021 16:29:40 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 12:26:18 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structuring JSON data</title>
+      <link>https://lolbat.github.io/zacblog/post/structuring-json-data/</link>
+      <pubDate>Wed, 22 Sep 2021 12:26:18 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/structuring-json-data/</guid>
+      <description>My new project has a lot of text data that is available in a .csv and spreadsheet files but not in any more useful format. I took the .csv data I had an created a sqllite .db file so I could use it to generate some queries to create a .json file which I will use to display the data but also to create the menu system.
+The original data is the modding documentation for a game.</description>
+    </item>
+    
     <item>
       <title>A New Project</title>
       <link>https://lolbat.github.io/zacblog/post/a-new-project/</link>
@@ -169,6 +179,16 @@ Hugo defaults to building all of your static content into the /public directory 
       <guid>https://lolbat.github.io/zacblog/post/first-post/</guid>
       <description>A new blog A new start as a developer requires, I think, a new blog. And since my focus is going to be Javascript web application development then it seems as if my new blog should not only document that path but also help me along on that path. To that end, I am using the Hugo site generator and Github Pages to create this blog and host it.
 There are so many new tools and practices that I am learning that it is all a buzz but it is also quite exciting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lolbat.github.io/zacblog/post/coe5-modding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/coe5-modding/</guid>
+      <description>The Basics of the Basics by Steam Community member Commisar Jon Fuklaw
+Before beginning any modding project, it is strongly recommended that you download a proper plaintext editor, as Microsoft Notepad is unacceptable for even the most simple of text-based modding. The most commonly used programs are Programmer&amp;rsquo;s Notepad and Notepad++. Each has its benefits and drawbacks, but the important thing is that you use a program that saves formatting with the file and can monitor functions and brackets.</description>
     </item>
     
   </channel>

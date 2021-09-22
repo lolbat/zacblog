@@ -6,7 +6,17 @@
     <description>Recent content in csv on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Aug 2021 11:49:01 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Sep 2021 12:26:18 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structuring JSON data</title>
+      <link>https://lolbat.github.io/zacblog/post/structuring-json-data/</link>
+      <pubDate>Wed, 22 Sep 2021 12:26:18 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/structuring-json-data/</guid>
+      <description>My new project has a lot of text data that is available in a .csv and spreadsheet files but not in any more useful format. I took the .csv data I had an created a sqllite .db file so I could use it to generate some queries to create a .json file which I will use to display the data but also to create the menu system.
+The original data is the modding documentation for a game.</description>
+    </item>
+    
     <item>
       <title>Shell Scripting</title>
       <link>https://lolbat.github.io/zacblog/post/shell-scripting/</link>
