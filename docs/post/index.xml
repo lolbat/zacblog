@@ -181,15 +181,5 @@ Hugo defaults to building all of your static content into the /public directory 
 There are so many new tools and practices that I am learning that it is all a buzz but it is also quite exciting.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://lolbat.github.io/zacblog/post/coe5-modding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/post/coe5-modding/</guid>
-      <description>The Basics of the Basics by Steam Community member Commisar Jon Fuklaw
-Before beginning any modding project, it is strongly recommended that you download a proper plaintext editor, as Microsoft Notepad is unacceptable for even the most simple of text-based modding. The most commonly used programs are Programmer&amp;rsquo;s Notepad and Notepad++. Each has its benefits and drawbacks, but the important thing is that you use a program that saves formatting with the file and can monitor functions and brackets.</description>
-    </item>
-    
   </channel>
 </rss>
