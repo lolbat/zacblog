@@ -1,7 +1,7 @@
 ---
 title: "Conquest of Elysium - an appreciation"
 date: 2021-09-19T08:24:33-06:00
-draft: true
+draft: false
 
 ---
 
