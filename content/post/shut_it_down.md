@@ -3,12 +3,12 @@ title: "Shut it down!"
 date: 2021-09-26T09:05:28-06:00
 draft: false
 tags:
-    -jsrender
-    -bootstrap
-    -jquery
-    -json
-    -jsonpath
-    -conquestofelysium
+    - jsrender
+    - bootstrap
+    - jquery
+    - json
+    - jsonpath
+    - conquestofelysium
 ---
 Sometimes you just have to say [Shut it down!][youtube] and move on.
 
