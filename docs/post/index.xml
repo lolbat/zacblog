@@ -6,7 +6,17 @@
     <description>Recent content in Posts on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Sep 2021 12:26:18 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 09:05:28 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shut it down!</title>
+      <link>https://lolbat.github.io/zacblog/post/shut_it_down/</link>
+      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/shut_it_down/</guid>
+      <description>Sometimes you just have to say Shut it down! and move on.
+I spent the better part of the week working on creating a browser for the modding commands for Conquest of Elysium 5. I had the data for the commands built into a nested JSON file. I built a template for JSRender that took the data and created a collapsible tree menu that let you browse the command structure and then view individual commands.</description>
+    </item>
+    
     <item>
       <title>Structuring JSON data</title>
       <link>https://lolbat.github.io/zacblog/post/structuring-json-data/</link>
