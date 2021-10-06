@@ -6,11 +6,11 @@
     <description>Recent content in Tags on An old coder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Sep 2021 09:05:28 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Oct 2021 10:33:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bootstrap</title>
       <link>https://lolbat.github.io/zacblog/tags/bootstrap/</link>
-      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/bootstrap/</guid>
       <description></description>
@@ -19,16 +19,25 @@
     <item>
       <title>conquestofelysium</title>
       <link>https://lolbat.github.io/zacblog/tags/conquestofelysium/</link>
-      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/conquestofelysium/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>datatables</title>
+      <link>https://lolbat.github.io/zacblog/tags/datatables/</link>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/datatables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>jquery</title>
       <link>https://lolbat.github.io/zacblog/tags/jquery/</link>
-      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/jquery/</guid>
       <description></description>
@@ -37,9 +46,18 @@
     <item>
       <title>json</title>
       <link>https://lolbat.github.io/zacblog/tags/json/</link>
-      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jsrender</title>
+      <link>https://lolbat.github.io/zacblog/tags/jsrender/</link>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/tags/jsrender/</guid>
       <description></description>
     </item>
     
@@ -49,15 +67,6 @@
       <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
       
       <guid>https://lolbat.github.io/zacblog/tags/jsonpath/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jsrender</title>
-      <link>https://lolbat.github.io/zacblog/tags/jsrender/</link>
-      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
-      
-      <guid>https://lolbat.github.io/zacblog/tags/jsrender/</guid>
       <description></description>
     </item>
     

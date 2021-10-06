@@ -3,7 +3,7 @@
 <head>
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.87.0" />
+  <meta name="generator" content="Hugo 0.88.1" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +59,7 @@
 </code></pre></div><p>I am not sure why these are referred to as &lsquo;objects&rsquo; as they certainly not from my perspective. Where I think they become more of a standard object is the use of  <code>prototype</code> but the entire process seems pointlessly complicated which is usually a hallmark of features added to a language on an ad-hoc basis.</p>
 <p>Classes were added to Javascript in ES6 and they are certainly a step closer to the OOP coding that I am used to. The main problem is that classes in Javascript have no way to refer to themselves. The bane of classes in Javascript is the <code>this</code> keyword. It is always relative to the context of the current code execution and so if you try to access code outside of the current classes context then <code>this</code> suddenly points to a different reference and you can&rsquo;t access your properties or methods any longer.</p>
 <p>Javascript doesn&rsquo;t have a means to provide the class a reference to itself so that it can always access its own properties. In <a href="https://en.wikipedia.org/wiki/Lingo_(programming_language)">Lingo</a> we had:</p>
-<pre><code>on new me, &lt;arguements&gt;
+<pre tabindex="0"><code>on new me, &lt;arguements&gt;
 </code></pre><p>When the object was instanced it was provided with a reference to itself and as a coder you then used that to refer to the object and its properties.</p>
 <p>Javascript classes are in their relative infancy compared to methods like <code>prototype</code> and objects and so it makes sense that they are slightly limited. Currently they work best when all of their functionality is encapsulated and the code doesn&rsquo;t need to do any asynchronous operations. Those will definitely mess you up when you try to access class properties.</p>
 <p>My current project uses quite a few Javascript classes but mostly as ways to encapsulate operations on the UI or the underlying data. Despite them not being as robust and flexible as other classes systems I have used in the past I find their availability very useful since it allows me to work in a system that I am more comfortable using.</p>

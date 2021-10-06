@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.88.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Testing an App &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://github.com/lolbat/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Testing an App</h1>
+  <time datetime=2021-10-06T10:33:51-0600 class="post-date">Wed, Oct 6, 2021</time>
+  <p>What a crazy few days it has been. I have caught yet another cold which is a reminder of just how much a toxic germ factory a middle-school is as well as an example of why schools are such a horrible vector for covid infections.</p>
+<p>I haven&rsquo;t done a lot in the last few days but on Friday I did post a <a href="https://coe5alamanc.netlify.app">test version of a web application</a> that I have been working on. It is an interface for viewing data for the game <a href="http://www.illwinter.com/coe5/index.html">Conquest of Elysium 5</a> by <a href="http://www.illwinter.com">Illwinter Game Design</a>. This is the project that I was working on when I had to <a href="https://lolbat.github.io/zacblog/post/shut_it_down/">Shut it Down!</a> and start over.</p>
+<p>I am using <a href="https://www.jsviews.com/#jsrender">JSRender</a> to build all of the content viewed on the page as well as the menu items in the <em>Modding Tables</em> section. Everything is coming from a <code>.json</code> file and then read in and sent to one of several JSRender templates. There are distinct templates for the Modding Commands, Spells and Rituals table as well as a generic one for the basic HTML tables created for each of the Modding Tables. I think that I am officially never going to build a website without a templating system ever again. The benefits it brings vastly outweighs the minor issues in implementing one.</p>
+<p><img src="/zacblog/coeSite.jpg" alt="Buttons linking to tables"></p>
+<p>I grabbed <a href="https://www.datatables.net">Datatables</a> to display the more complex tables. I am not sure if I will use it in the long run but I have used it before and it was simple to implement.  will see what people want from the application before determining that.  All of the currently available data for the game has been posted to a <a href="https://github.com/lolbat/Conquest-of-Elysium-5-data">Github repository</a> in multiple formats along with the tools I built to create the specific <code>.json</code> files I needed.</p>
+<p>There are some ugly data definitions in the app that I tried to put into an external file and <code>import</code> but since the data was never used at the same context as the import and needed to be available in several locations I had to drop that plan. I am beginning to suspect that <code>import</code> and <code>export</code> are more suited for component-level development and not the SPAs that I am currently building.</p>
+<p>I may look into options for building generic components for my sites using something like React or a different library not stained by the moral and ethical weight of Facebook.</p>
+<p>In any case, this app is now out for some public testing and comment. I already have noticed that the chat bubble icons need to be bigger on mobile so that will be first on my list to change since I use the site primarily from my iPad.</p>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/conquestofelysium/">conquestofelysium</a> <a href="https://lolbat.github.io/zacblog/tags/bootstrap/">bootstrap</a> <a href="https://lolbat.github.io/zacblog/tags/jquery/">jquery</a> <a href="https://lolbat.github.io/zacblog/tags/datatables/">datatables</a> <a href="https://lolbat.github.io/zacblog/tags/jsrender/">jsrender</a> <a href="https://lolbat.github.io/zacblog/tags/json/">json</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
