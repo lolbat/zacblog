@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jquery on An old coder</title>
+    <link>https://lolbat.github.io/zacblog/tags/jquery/</link>
+    <description>Recent content in jquery on An old coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Oct 2021 10:33:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing an App</title>
+      <link>https://lolbat.github.io/zacblog/post/testing-an-app/</link>
+      <pubDate>Wed, 06 Oct 2021 10:33:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/testing-an-app/</guid>
+      <description>What a crazy few days it has been. I have caught yet another cold which is a reminder of just how much a toxic germ factory a middle-school is as well as an example of why schools are such a horrible vector for covid infections.
+I haven&amp;rsquo;t done a lot in the last few days but on Friday I did post a test version of a web application that I have been working on.</description>
+    </item>
+    
+    <item>
+      <title>Shut it down!</title>
+      <link>https://lolbat.github.io/zacblog/post/shut_it_down/</link>
+      <pubDate>Sun, 26 Sep 2021 09:05:28 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/shut_it_down/</guid>
+      <description>Sometimes you just have to say Shut it down! and move on.
+I spent the better part of the week working on creating a browser for the modding commands for Conquest of Elysium 5. I had the data for the commands built into a nested JSON file. I built a template for JSRender that took the data and created a collapsible tree menu that let you browse the command structure and then view individual commands.</description>
+    </item>
+    
+    <item>
+      <title>The Speed of Javascript</title>
+      <link>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</link>
+      <pubDate>Wed, 01 Sep 2021 11:45:16 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/the-speed-of-javascript/</guid>
+      <description>I still have difficulty comprehending the speed at which Javascript runs in the browser. Part of the speed is due to the processors that our computers are running. A more significant amount of the improvement though is the capabilities of the Javascript engines that are being used in browsers as well as the advent of JIT in those engines.
+It has dramatically changed not only what you can do in a web-based application but how you do it.</description>
+    </item>
+    
+  </channel>
+</rss>

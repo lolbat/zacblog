@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oop on An old coder</title>
+    <link>https://lolbat.github.io/zacblog/tags/oop/</link>
+    <description>Recent content in oop on An old coder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Sep 2021 09:49:51 -0600</lastBuildDate><atom:link href="https://lolbat.github.io/zacblog/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Have I Learned - Update 2</title>
+      <link>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</link>
+      <pubDate>Fri, 03 Sep 2021 09:49:51 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/what-have-i-learned-update-2/</guid>
+      <description>Well it has been a busy week. Lets have a look back at all of the new things I have &amp;lsquo;learned&amp;rsquo;1 in order to get my web application up and running.
+JSRender and JSView So the biggest thing for me was learning to integrate JSRender and JSView into my web application. I can&amp;rsquo;t get over how well they work and also how easy they were to use. I am not really stressing either library but I took the HTML creation for a fairly complex display and turned it into a template and took the code needed to create it into one line.</description>
+    </item>
+    
+    <item>
+      <title>Javascript OOP Is Odd</title>
+      <link>https://lolbat.github.io/zacblog/post/javascript-oop-is-odd/</link>
+      <pubDate>Thu, 02 Sep 2021 09:24:11 -0600</pubDate>
+      
+      <guid>https://lolbat.github.io/zacblog/post/javascript-oop-is-odd/</guid>
+      <description>I am by no means an expert in OOP. I know how to use it and I know some of the concepts but I couldn&amp;rsquo;t tell you anything about polymorphism or abstraction but I know that I use them. Way back in the olden days when I was writing Director code in Lingo I wrote my projects almost exclusively using objects. In fact I doubt that I could have written a project without using objects of some type since it became a fundamental of my coding style and my workflow.</description>
+    </item>
+    
+  </channel>
+</rss>
