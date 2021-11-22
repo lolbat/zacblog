@@ -1,16 +1,16 @@
-baseURL = 'https://lolbat.netlify.com/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'An old coder'
 theme ="hyde"
-publishDir="build"
 
 [params]
   themeColor = "theme-base-0d"
+  author = 'Zac Belado'
   description = "One person's journey back into the world of web development."
 
 [Menus]
     main = [
-        {Name = "Github", URL = "https://lolbat.netlify.com/"},
+        {Name = "Github", URL = "https://github.com/lolbat"},
         {Name="About", URL = "/page/about/"}
     ]
   
