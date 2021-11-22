@@ -12,7 +12,7 @@ The problem of serializing data and then importing it back into your application
 
 Javascript has support for its own native format to do this, [JSON][jsonlink], which is much [better than XML][xmlcomp].  Having had to work with XML and even XSLTs I can attest to the ease of use that JSON provides.
 
-![pretty JSON display](/zacblog/JSONOutput.jpg)
+![pretty JSON display](/JSONOutput.jpg)
 
 What I really like is that you can still store values in their native format so you don't need to post-process your data to convert it into something that is easier to code with. This was always a bit of a PITA with XML and 'DIY' solutions. I don't want to have to convert a value to a `boolean` or an `int` before I test it. The application that I am working on is for a game and it has hundreds of individual entries that all need to be stored and potentially edited to correct errors. 
 

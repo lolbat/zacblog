@@ -15,7 +15,7 @@ So my next project is going to be a mode editor for the game. I will use [electr
 
 ### Ta Dah!
 
-![a comp](/zacblog/comp.jpeg)
+![a comp](/comp.jpeg)
 
 So this is what I imagine an initial version would look like. It is taken from a screenshot for the [Atom code editor](https://github.com/atom/atom) and I have added some code from the *War in Heaven* mod as well as my idea of what a project directory structure would look like. 
 

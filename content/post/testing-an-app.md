@@ -17,7 +17,7 @@ I haven't done a lot in the last few days but on Friday I did post a [test versi
 
 I am using [JSRender](https://www.jsviews.com/#jsrender) to build all of the content viewed on the page as well as the menu items in the *Modding Tables* section. Everything is coming from a `.json` file and then read in and sent to one of several JSRender templates. There are distinct templates for the Modding Commands, Spells and Rituals table as well as a generic one for the basic HTML tables created for each of the Modding Tables. I think that I am officially never going to build a website without a templating system ever again. The benefits it brings vastly outweighs the minor issues in implementing one. 
 
-![Buttons linking to tables](/zacblog/coeSite.jpg)
+![Buttons linking to tables](/coeSite.jpg)
 
 I grabbed [Datatables](https://www.datatables.net) to display the more complex tables. I am not sure if I will use it in the long run but I have used it before and it was simple to implement.  will see what people want from the application before determining that.  All of the currently available data for the game has been posted to a [Github repository](https://github.com/lolbat/Conquest-of-Elysium-5-data) in multiple formats along with the tools I built to create the specific `.json` files I needed. 
 
