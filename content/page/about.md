@@ -31,8 +31,8 @@ The last time he checked out Javascript development before he took a hiatus REST
 
 ### Colophon
 
-This site is created using [Hugo][gohugo] and is hosted on [Github Pages][ghp]. The pages were written using [Nota](https://nota.md) and the site is maintained using [Nova](https://nova.app). I was using Caret but it appears that the team that was working on it moved to working on Nota. 
+This site is created using [Hugo][gohugo] and is hosted on [Netlify][ghp]. The pages were written using [Nota](https://nota.md) and the site is maintained using [Nova](https://nova.app). I was using Caret but it appears that the team that was working on it moved to working on Nota. 
 
 [gohugo]: https://gohugo.io "Hugo starts with the letter H"
-[ghp]: https://pages.github.com "This should have been before Hugo to stay alphabetical"
+[ghp]:https://www.netlify.com
 

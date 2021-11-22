@@ -3,7 +3,7 @@ title: "Getting Back at It"
 date: 2021-11-22T10:40:08-07:00
 draft: false
 tags:
-    -ADHD
+    - ADHD
 ---
 
 So that was an interesting few months.
