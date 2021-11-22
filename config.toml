@@ -2,7 +2,7 @@ baseURL = 'https://lolbat.github.io/zacblog/'
 languageCode = 'en-us'
 title = 'An old coder'
 theme ="hyde"
-publishDir="docs"
+publishDir="build"
 
 [params]
   themeColor = "theme-base-0d"
@@ -10,7 +10,7 @@ publishDir="docs"
 
   [Menus]
     main = [
-        {Name = "Github", URL = "https://github.com/lolbat/"},
+        {Name = "Github", URL = "https://lolbat.netlify.com/"},
         {Name="About", URL = "/page/about/"}
     ]
   
