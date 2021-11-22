@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.89.4" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Getting Going &middot; An old coder</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lolbat.github.io/zacblog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0d ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lolbat.github.io/zacblog/"><h1>An old coder</h1></a>
+      <p class="lead">
+       One person&#39;s journey back into the world of web development. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lolbat.github.io/zacblog/">Home</a> </li>
+        <li><a href="/zacblog/page/about/"> About </a></li><li><a href="https://lolbat.netlify.com/"> Github </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Getting Going</h1>
+  <time datetime=2021-08-17T13:12:51-0600 class="post-date">Tue, Aug 17, 2021</time>
+  <p>You have to assume that any blog that involves using a command line tool and pushing content to a code control system will have a few hickups involved with getting it going. Such is the case with this blog. The Hugo docs seem to be based on the assumption taht you are going to get Github to render the static html pages. So their explanation of the process involves creating a Github Workflow Action. That seems to be a bit too far into the deep end for me at the moment.</p>
+<p>So there were a lot of steps I needed to do to get this runnning</p>
+<p><strong>#1 uninstall brew</strong></p>
+<p>While my Macbook is <em>very</em> new, I transfered a lot of files from my old iMac and part of that was a very old install of <a href="https://brew.sh" title="Homebrew actually">brew</a>. I tried to get it to update itself but that just threw a lot of errors. Better to start fresh.</p>
+<p><strong>#2 install xcode</strong>
+brew wants xCode. I assume that it requires it to do builds. Seems unlikely that brew would have gvc installed on its own.</p>
+<p><strong>#3 install git</strong>
+This step was actually quite easy as xCode installs git. I just tested to make sure that it was working.</p>
+<p><strong>#4 install Hugo</strong>
+With brew working this was an easy step. I am attempting to do as much as I can from the Terminal and so all of my Hugo work so far as been via the CLI. Oddly the <a href="https://gohugo.io/getting-started/quick-start/" title="Hugo Quick Start">Hugo Quick Start instuctions</a> are run from a Mac. Maybe this isn&rsquo;t all that odd for people currently doing Javascript and web development but coming back into this field and seeing official docs using the Mac is a surprise.</p>
+<p>Like many, many quick start guides online, the Hugo Quick Start is written without a lot of emphasis on explaining the command line commands and options that are being presented. And they also seem to assume that you are copying commands and pasting them in. I doubt that anyone thinks that the average user is going to type in</p>
+<pre tabindex="0"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
+</code></pre><p>I did but I am a bit odd and I am also trying to force myself to not use any shortcuts. I have been spending a lot of time looking through various quick start guides online for various tools and libraries and they all seem a little too &lsquo;quick&rsquo; for my tastes. So this isn&rsquo;t really a fault with the Hugo docs but a general trend.</p>
+<p><strong>#5 write a post and test</strong></p>
+<p>This is again a very simple step. It is odd having to use the command line to create a blog post but once you do that you can open the Markdown file into any editor and edit it. The oddity is using Markdown in the first place. This just wasn&rsquo;t a thing when I was was first building websites and applications. It is interesting just how widespread the format has become and I suspect that it being used in git has helped to popularise it.</p>
+<p>Hugo renders the pages quickly and pops open a server to display my new, very local, blog. Then it <a href="https://lolbat.github.io/zacblog/post/deploying/" title="Deploying the blog">gets a bit weird&hellip;</a></p>
+
+  <div class="tags"><strong>Tags</strong>: <a href="https://lolbat.github.io/zacblog/tags/brew/">brew</a> <a href="https://lolbat.github.io/zacblog/tags/git/">git</a> <a href="https://lolbat.github.io/zacblog/tags/hugo/">hugo</a> </div>
+</div>
+
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
