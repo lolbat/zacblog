@@ -6,7 +6,7 @@ tags:
     - CodeKit
 ---
 
-![Building a page with imports](/codeKit.jpg)
+![Building a page with imports](/codeKit.jpeg)
 
 The sign of a good tool is that it enables you to work in ways that you hadn't thought of. I am a big fan of  [CodeKit](https://codekitapp.com). It lets me work with a number of command line technologies through a GUI interface and it makes it easy to not only use them but also to put in exceptions to those apps and your build process for occasions when you have files that you don't want or don't need to minify or lint. It is the main reason why I have not needed tools like [vite](https://vitejs.dev) and [parcel](https://parceljs.org). CodeKit does it already and in the case of Parcel it does it without objecting to the JSRender templates I use.
 
