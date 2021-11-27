@@ -4,7 +4,6 @@ date: 2021-11-26T15:43:47-07:00
 draft: false
 tags:
     - CodeKit
-    -tag2
 ---
 
 ![Building a page with imports](/codeKit.jpg)
